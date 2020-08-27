@@ -210,8 +210,8 @@ class TerrainView : View {
         private const val MAX_HUE = 360f
         private const val SATURATION = 1f
         private const val BRIGHTNESS = 0.85f
-        private const val ACTIVE_SLEEP_INTERVAL: Long = 10
-        private const val INACTIVE_SLEEP_INTERVAL: Long = 100
+        private const val ACTIVE_SLEEP_INTERVAL = 10L
+        private const val INACTIVE_SLEEP_INTERVAL = 100L
     }
 
     init {
